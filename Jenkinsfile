@@ -5,9 +5,9 @@ pipeline {
     }
     environment {
         SONARQUBE_ENV = 'sonar'
-        ECR_REPO = 'xyz'
+        ECR_REPO = '030238084790.dkr.ecr.ap-south-1.amazonaws.com/project-1'
         AWS_REGION = 'us-east-1'
-        IMAGE_NAME = 'we-repo'
+        IMAGE_NAME = 'my-img'
     }
     stages {
         stage('CheckOut') {
